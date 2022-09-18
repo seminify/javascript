@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>172_tryjs_string_trimstart</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>JavaScript Strings</h1>
+    <h2>The trimStart() Method</h2>
+    <p id="demo"></p>
+    <script src="./js/scripts.js"></script>
+    <script>
+      let text1 = "     Hello World!     ";
+      let text2 = text1.trimStart();
+      document.getElementById("demo").innerHTML =
+        "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+    </script>
+  </body>
+</html>
